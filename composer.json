@@ -1,0 +1,13 @@
+{
+    "name": "infinity/hello-world",
+    "description": "This is a sample package for beginners who wants to know how to create a package in PHP.",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Infinity\\App\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
